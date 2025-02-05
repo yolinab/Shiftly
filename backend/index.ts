@@ -25,3 +25,8 @@ app.get("/", (req, res) => {
 });
 
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+
+// Add endpoints for:
+app.post("/meetings", /* handler */)
+app.post("/availability", /* handler */)
+app.get("/meetings/:id", /* handler */)
